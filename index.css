@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+.course-start-section {
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #9DC9C8;
+    padding-top: 179px;
+    padding-left: 122px;
+    padding-bottom: 185px;
+}
+
+.start-h1 {
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.price-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-top: 54px;
+    margin-bottom: 0px;
+}
+
+.course-price {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+.p-for-level {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.p-level-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.div-course {
+    display: flex;
+}
+
+.div-course1 {
+    margin-right: 70px;
+    width: 25%;
+}
+
+.p-join-course {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.p-join-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    padding: 50px 122px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 146px;
+}
+
+.social {
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.synch {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.footer-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-phone-div,
+.foot-mail-div {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.phone-img {
+    width: 27px;
+    height: 27px;
+    margin-right: 18px;
+}
+
+.mail-img {
+    width: 27px;
+    height: 18px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+.phone-num {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.mail {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .course-start-section {
+        width: 100%;
+        padding: 103px 70px;
+    }
+
+    .start-h1 {
+        font-size: 32px;
+    }
+
+    .price-text {
+        font-size: 14px;
+    }
+
+    .course-price {
+        font-size: 46px;
+    }
+
+    .p-for-level {
+        font-size: 14px;
+    }
+
+    .p-level-info {
+        font-size: 10px;
+    }
+
+    .p-join-course {
+        font-size: 14px;
+    }
+
+    .p-join-info {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 66px;
+        height: 39px;
+    }
+
+    .social {
+        width: 19px;
+        height: 19px;    
+    }
+
+    .phone-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .mail-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .phone-num {
+        font-size: 14px;
+    }
+
+    .mail {
+        font-size: 14px;
+    }
+
+    .synch {
+        font-size: 10px;
+    }
+
+    .mail-img {
+        margin-top: 2px;
+    }
+
+    .phone-img {
+        margin-bottom: 5px;
+    }
+
+    .foot-phone-div{
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+        margin-top: 13px;
+        display: flex;
+    }
+    
+}
+
+
+@media screen and (min-width:375px) and (max-width: 600px){
+    .course-start-section {
+        width: 100%;
+        padding: 62px 57px;
+    }
+
+    .start-h1 {
+        font-size: 26px;
+    }
+
+    .price-text {
+        font-size: 12px;
+    }
+
+    .course-price {
+        font-size: 37px;
+    }
+
+    .p-for-level {
+        font-size: 12px;
+    }
+
+    .p-level-info {
+        font-size: 10px;
+    }
+
+    .p-join-course {
+        font-size: 12px;
+    }
+
+    .p-join-info {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 54px;
+        height: 32px;
+    }
+
+    .social {
+        width: 15px;
+        height: 15px;    
+    }
+
+    .phone-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .mail-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .phone-num {
+        font-size: 12px;
+    }
+
+    .mail {
+        font-size: 12px;
+    }
+
+    .synch {
+        font-size: 10px;
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .footer-div-left,.footer-div-right {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;;
+    }
+
+    .mail-img {
+        margin-top: 2px;
+    }
+
+    .phone-img {
+        margin-bottom: 5px;
+    }
+
+    .foot-phone-div{
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+        margin-top: 13px;
+        display: flex;
+    }
+    
+    footer {
+        padding-left: 57px;
+    };
+
+}
