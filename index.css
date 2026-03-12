@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-img {
+    width: 10vw;
+}
+
+body {
+    padding-top: 2vh;
+    padding-left: 8vw;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7.8vw;
+    gap: 2.9vw;
+}
+
+.item-text {
+    width: auto;
+    height: auto;
+    font-size: 1.439vw;
+    font-family: "Roboto", sans-serif;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+#globe {
+    width: 1.8vw;
+    height: 1.7vw;
+}
+
+#clock {
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+#calendar {
+    width: 1.8vw;
+    height: 1.6vw;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+    margin-top: -4.3vw;
+}
+
+.title {
+    box-sizing: content-box;
+    font-size: 5.8vw;
+    width: 87%;
+    height: 14vw;
+    line-height: 1.05;
+    font-family: "Roboto Slab", serif;
+}
+
+.description {
+    font-size: 1.5vw;
+    line-height: 1.35;
+    width: 60%;
+    /* height: 7.43vw; */
+    font-family: "Roboto", sans-serif;
+}
+
+/* .rejisor {
+    height: 25.18vw;
+} */
+
+.rejisor img {
+    width: 100%;
+    margin-top: 5vw;
+    /* height: 25.18vw; */
+}
+
+/* .text-group {
+    margin-top: 10.79vw;
+} */
+
+.container-footer {
+    background-color: #1E4681;
+    color: white;
+    border-radius: 0.4vw;
+    margin-left: 25%;
+    margin-top: 4%;
+    width: 33vw;
+    /* height: 22.18vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container-3-text {
+    width: 90%;
+    /* height: 13.55vw; */
+    font-size: 1.7vw;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 5%;
+    margin-left: 3.12vw;
+    font-family: "Roboto-Slab", sans-serif;
+}
+
+.container-3-author {
+    width: 70%;
+    height: 3vw;
+    font-size: 1.439vw;
+    font-family: "Roboto", sans-serif;
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 1.129vw;
+    margin-top: 1%;
+    font-weight: 375;
+}
+
+
+@media (max-width:600px) {
+    header img {
+    width: 12.5vw;
+    height: 7.38vw;
+}
+
+.container-header {
+    gap: 2.8vw;
+    margin-top: 8vw;
+}
+
+.item-text {
+    font-size: 2.4vw;
+}
+
+.items {
+    gap: 0.88vw;
+}
+
+#globe {
+    width: 2.46vw;
+    height: 2.36vw;
+}
+
+#clock {
+    width: 2.46vw;
+    height: 2.46vw;
+}
+
+#calendar {
+    width: 2.24vw;
+    height: 2.46vw;
+}
+
+.container-main {
+    display: inline-block;
+    margin-top: 4vw;
+}
+
+.title {
+    width: 70.16vw;
+    height: 21.22vw;
+    font-size: 8.88vw;
+}
+
+.description {
+    width: 50.94vw;
+    height: 6.92vw;
+    font-size: 2.4vw;
+    margin-top: 0.24vw;
+}
+
+.rejisor {
+    display: flex;
+    justify-content: flex-end;
+    height: 9.6vw;
+}
+
+.rejisor img {
+    width: 33.96vw;
+    height: 41.98vw;
+}
+
+.container-footer {
+    margin-top: 4.8vw;
+    margin-left: 0;
+    width: 51.56vw;
+    height: 20.38vw;
+    border-radius: 0.84vw;
+}
+
+.container-3-text {
+    width: 48.1vw;
+    height: 12.62vw;
+    font-size: 2.64vw;
+    margin-top: 2.16vw;
+    margin-left: 2.9vw;
+}
+
+.container-3-author {
+    width: 31.34vw;
+    height: 5.1vw;
+    font-size: 2.4vw;
+    margin-right: 1.82vw;
+    margin-top: 0;
+}
+
+}
+
+@media (min-width:600px) and (max-width:991px) {
+    header img {
+        width: 7.782vw;
+        height: 4.58vw;
+    }
+
+    .container-header {
+        gap: 1.739vw;
+        margin-top: 5.755vw;
+    }
+
+    .item-text {
+        font-size: 1.439vw;
+    }
+
+    .items {
+        gap: 0.564vw;
+    }
+
+    #globe {
+        width: 1.52vw;
+        height: 1.45vw;
+    }
+
+    #clock {
+        width: 1.52vw;
+        height: 1.52vw;
+    }
+
+    #calendar {
+        width: 1.39vw;
+        height: 1.52vw;
+    }
+
+    .container-main {
+        gap: 9.68vw;
+        margin-top: -9.59vw;
+    }
+
+    .title {
+        width: 46vw;
+        height: 13.189vw;
+        font-size: 5.516vw;
+    }
+
+    .description {
+        width: 31.65vw;
+        height: 4.32vw;
+        font-size: 1.44vw;
+    }
+
+    .rejisor {
+        height: 6.0vw;
+    }
+
+    .rejisor img {
+        width: 21.1vw;
+        height: 24.72vw;
+    }
+
+    .container-footer {
+        width: 32.13vw;
+        height: 12.95vw;
+        margin-left: 20.38vw;
+        border-radius: 0.48vw;
+    }
+
+    .container-3-text {
+        width: 29.9vw;
+        height: 7.85vw;
+        font-size: 1.68vw;
+        margin-top: 1.33vw;
+        margin-left: 1.81vw;
+    }
+
+    .container-3-author {
+        width: 19.48vw;
+        height: 3.17vw;
+        font-size: 1.44vw;
+        margin-right: 1.13vw;
+        margin-top: 0.48vw;
+    }
+
+    .text-group {
+        margin-top: 10.91vw;
+    }
+}
