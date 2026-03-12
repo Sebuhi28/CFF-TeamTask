@@ -1,81 +1,81 @@
-
-
-body{
-  margin: 0;
-  padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.kurs,.format {
-  font-family: "Roboto", sans-serif;
+.kurs,
+.format {
+    font-family: "Roboto", sans-serif;
 }
 
 .kurs-title {
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  margin-left: 8.9vw;
-  margin-top: 5.8vw;
-  font-size: 3.9vw;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    margin-left: 8.9vw;
+    margin-top: 5.8vw;
+    font-size: 3.9vw;
 }
 
 .kurs-paragraph {
-  width: 47vw;
-  margin-left: 8.9vw;
+    width: 47vw;
+    margin-left: 8.9vw;
 }
 
 .kurs-paragraph p {
-  font-size: 1.7vw;
-  font-weight: 400;
-  line-height: 1.4;
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 .kurs-part1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
 .kurs-foto1 {
-  width: 25vw;
-  height: auto;
-  margin-left: 5vw;
-  margin-right: 8.9vw;
+    width: 25vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 8.9vw;
 }
 
 .kurs-part2 {
-  display: flex;
-  margin-left: 8.9vw;
-  margin-top: 5vw;
-  width: 90%;
+    display: flex;
+    margin-left: 8.9vw;
+    margin-top: 5vw;
+    width: 90%;
 }
 
 .kurs-table {
-  width: 60%;
-  margin-left: 4.5vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    width: 60%;
+    margin-left: 4.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .kurs-info {
-  margin-left: 7.8vw;
+    margin-left: 7.8vw;
 }
 
 .kurs-info h2 {
-  font-size: 1.8vw;
-  font-weight: 700;
-  margin-bottom: 5px;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .kurs-info p {
-  width: 11vw;
-  font-size: 1.3vw;
+    width: 11vw;
+    font-size: 1.3vw;
 }
 
 .kurs-foto2 {
-  width: 24.5vw;
-  height: auto;
+    width: 24.5vw;
+    height: auto;
 }
+
 .format {
     margin-left: 8.9vw;
     margin-top: 6vw;
@@ -96,7 +96,7 @@ body{
 }
 
 .format-li {
-    width: 18vw; 
+    width: 18vw;
 }
 
 .format-li h3 {
@@ -113,38 +113,42 @@ body{
     margin: 0;
 }
 
-.programming_course h2 {        
-     font-family: "Roboto Slab", serif;
-     font-weight: 700;
-     font-size:4vw;
-     letter-spacing: 0%;
-     margin-bottom:4rem;
-     margin-left:7%;
+.programming_course h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 4vw;
+    letter-spacing: 0%;
+    margin-bottom: 4rem;
+    margin-left: 7%;
 }
+
 .programming-course-block {
     width: 29%;
     border-radius: 30px;
     background-color: #FFFFFF;
     box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
+
 .programming-course-block img {
     width: 100%;
     height: 50%;
 }
+
 .programming-course-block p {
     font-family: "Roboto", sans-serif;
     font-size: 2vw;
     font-weight: 700;
-    margin:5% 10% 6% 5%;
-    
+    margin: 5% 10% 6% 5%;
+
 }
+
 .programming-course-divs {
     display: flex;
     flex-wrap: wrap;
     row-gap: 41px;
     column-gap: 37px;
-    margin-left:5%;
+    margin-left: 5%;
 }
 
 .header-img {
@@ -261,37 +265,42 @@ body{
 .programming-course-divs ul {
     list-style-type: none;
 }
+
 .programming-course-divs li {
     font-weight: 400;
-    font-size:1.5vw;
+    font-size: 1.5vw;
     font-family: "Roboto", sans-serif;
-    padding-left:5%;
+    padding-left: 5%;
 }
 
 .welearn {
     list-style-type: none;
     width: 65vw;
-     font-family: "Roboto", sans-serif;
-     margin-bottom:18%;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 18%;
     margin-top: 10%;
 }
+
 .welearn h2 {
     font-family: "Roboto Slab", serif;
     font-size: 4.5vw;
-    margin-left:12%;
-    margin-bottom:3.6vw;
-}
-.welearn ul {
-    margin-left:10%;
-    
+    margin-left: 12%;
+    margin-bottom: 3.6vw;
 }
 
-.block8 p{
+.welearn ul {
+    margin-left: 10%;
+
+}
+
+.block8 p {
     margin-bottom: 3%;
 }
+
 p {
     width: 100%;
 }
+
 .textofblock {
     width: 100%;
     height: 50%;
@@ -300,15 +309,15 @@ p {
 .welearn li {
     margin-left: 5%;
     font-size: 2vw;
-} 
+}
 
 
 .top {
     font-family: "Roboto Condensed", sans-serif;
     background-color: #EFEFEF;
     min-height: 100vh;
-    width: 100vw;
     padding: 1.39vw;
+    margin-top: 80px;
 }
 
 .top-wrapper {
@@ -345,6 +354,7 @@ p {
     margin: 2.78vw 0 2.08vw 0;
     padding: 0 2.08vw;
     text-align: left;
+    width: 85%;
 }
 
 .top-block-bottom-container {
@@ -502,105 +512,107 @@ footer {
 
 
 @media screen and (min-width: 601px) and (max-width: 990px) {
-  header img {
-    width: 12.5vw;
-    height: 7.38vw;
-}
-
-.container-header {
-    gap: 2.8vw;
-    margin-top: 8vw;
-}
-
-.item-text {
-    font-size: 2.4vw;
-}
-
-.items {
-    gap: 0.88vw;
-}
-
-#globe {
-    width: 2.46vw;
-    height: 2.36vw;
-}
-
-#clock {
-    width: 2.46vw;
-    height: 2.46vw;
-}
-
-#calendar {
-    width: 2.24vw;
-    height: 2.46vw;
-}
-
-.container-main {
-    display: inline-block;
-    margin-top: 4vw;
-}
-
-.title {
-    width: 70.16vw;
-    height: 21.22vw;
-    font-size: 8.88vw;
-}
-
-.description {
-    width: 50.94vw;
-    height: 6.92vw;
-    font-size: 2.4vw;
-    margin-top: 0.24vw;
-}
-
-.rejisor {
-    display: flex;
-    justify-content: flex-end;
-    height: 9.6vw;
-}
-
-.rejisor img {
-    width: 33.96vw;
-    height: 41.98vw;
-}
-
-.container-footer {
-    margin-top: 4.8vw;
-    margin-left: 0;
-    width: 51.56vw;
-    height: 20.38vw;
-    border-radius: 0.84vw;
-}
-
-.container-3-text {
-    width: 48.1vw;
-    height: 12.62vw;
-    font-size: 2.64vw;
-    margin-top: 2.16vw;
-    margin-left: 2.9vw;
-}
-
-.container-3-author {
-    width: 31.34vw;
-    height: 5.1vw;
-    font-size: 2.4vw;
-    margin-right: 1.82vw;
-    margin-top: 0;
-}
-  
-  
-   .welearn{
-        margin-top:5%;
-        margin-bottom:15%;
+    header img {
+        width: 12.5vw;
+        height: 7.38vw;
     }
+
+    .container-header {
+        gap: 2.8vw;
+        margin-top: 8vw;
+    }
+
+    .item-text {
+        font-size: 2.4vw;
+    }
+
+    .items {
+        gap: 0.88vw;
+    }
+
+    #globe {
+        width: 2.46vw;
+        height: 2.36vw;
+    }
+
+    #clock {
+        width: 2.46vw;
+        height: 2.46vw;
+    }
+
+    #calendar {
+        width: 2.24vw;
+        height: 2.46vw;
+    }
+
+    .container-main {
+        display: inline-block;
+        margin-top: 4vw;
+    }
+
+    .title {
+        width: 70.16vw;
+        height: 21.22vw;
+        font-size: 8.88vw;
+    }
+
+    .description {
+        width: 50.94vw;
+        height: 6.92vw;
+        font-size: 2.4vw;
+        margin-top: 0.24vw;
+    }
+
+    .rejisor {
+        display: flex;
+        justify-content: flex-end;
+        height: 9.6vw;
+    }
+
+    .rejisor img {
+        width: 33.96vw;
+        height: 41.98vw;
+    }
+
+    .container-footer {
+        margin-top: 4.8vw;
+        margin-left: 0;
+        width: 51.56vw;
+        height: 20.38vw;
+        border-radius: 0.84vw;
+    }
+
+    .container-3-text {
+        width: 48.1vw;
+        height: 12.62vw;
+        font-size: 2.64vw;
+        margin-top: 2.16vw;
+        margin-left: 2.9vw;
+    }
+
+    .container-3-author {
+        width: 31.34vw;
+        height: 5.1vw;
+        font-size: 2.4vw;
+        margin-right: 1.82vw;
+        margin-top: 0;
+    }
+
+
+    .welearn {
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+
     .welearn h2 {
-        margin-bottom:2vw;
+        margin-bottom: 2vw;
     }
+
     .programming-course-divs {
-        width: 100vw;
+        width: 95vw;
     }
-  
-  .top-wrapper {
+
+    .top-wrapper {
         margin-left: 5.21vw;
     }
 
@@ -631,8 +643,8 @@ footer {
     .top-block-fb {
         width: 3.13vw;
     }
-  
-  .course-start-section {
+
+    .course-start-section {
         width: 100%;
         padding: 103px 70px;
     }
@@ -672,7 +684,7 @@ footer {
 
     .social {
         width: 19px;
-        height: 19px;    
+        height: 19px;
     }
 
     .phone-img {
@@ -705,7 +717,7 @@ footer {
         margin-bottom: 5px;
     }
 
-    .foot-phone-div{
+    .foot-phone-div {
         margin-bottom: 5px;
         width: 100%;
     }
@@ -715,116 +727,117 @@ footer {
         margin-top: 13px;
         display: flex;
     }
-  
-    html, body {
-    overflow-x: hidden;
-  }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
 
 
-  .kurs,
-  .format {
-    margin-left: 0;          
-    padding: 0 40px;
-    box-sizing: border-box;
-  }
+    .kurs,
+    .format {
+        margin-left: 0;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
 
-  .kurs-title,
-  .format-title {
-    margin-left: 0;
-    font-size: 32px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-  }
-
-
-  .kurs-part1 {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .kurs-paragraph {
-    flex: 1;
-    margin: 0;
-  }
-
-  .kurs-paragraph p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-
-  .kurs-foto1 {
-    width: 260px;
-    flex-shrink: 0;
-    margin: 0;
-  }
+    .kurs-title,
+    .format-title {
+        margin-left: 0;
+        font-size: 32px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
 
 
+    .kurs-part1 {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
 
-  .kurs-part2 {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-top: 60px;
-  }
+    .kurs-paragraph {
+        flex: 1;
+        margin: 0;
+    }
 
-  .kurs-foto {
-    flex: 0 0 130px;
-  }
+    .kurs-paragraph p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
 
-  .kurs-foto2 {
-    width: 100%;
-    height: auto;
-    margin-left: -30px;
-  }
-
-  .kurs-table {
-    display: flex;
-    gap: 10px;
-    flex: 1;
-    min-width: 0;
-    margin-left: -100px;
-  }
+    .kurs-foto1 {
+        width: 260px;
+        flex-shrink: 0;
+        margin: 0;
+    }
 
 
-  .kurs-info {
-    flex: 1;
-    min-width: 0;
-  }
 
-  .kurs-info h2 {
-    font-size: 20px;
-  }
+    .kurs-part2 {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 60px;
+    }
 
-  .kurs-info p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
+    .kurs-foto {
+        flex: 0 0 130px;
+    }
+
+    .kurs-foto2 {
+        width: 100%;
+        height: auto;
+        margin-left: -30px;
+    }
+
+    .kurs-table {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+        min-width: 0;
+        margin-left: -100px;
+    }
 
 
-  .format-info {
-    display: flex;
-    gap: 40px;
-  }
+    .kurs-info {
+        flex: 1;
+        min-width: 0;
+    }
 
-  .format-li {
-    flex: 1;
-  }
+    .kurs-info h2 {
+        font-size: 20px;
+    }
 
-  .format-li h3 {
-    font-size: 20px;   
-  }
+    .kurs-info p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
 
-  .format-li p {
-    font-size: 14px;
-    line-height: 1.6;
-  }
+
+    .format-info {
+        display: flex;
+        gap: 40px;
+    }
+
+    .format-li {
+        flex: 1;
+    }
+
+    .format-li h3 {
+        font-size: 20px;
+    }
+
+    .format-li p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
 }
 
 
 
-@media screen and (min-width:375px) and (max-width: 600px){
-  header img {
+@media screen and (min-width:375px) and (max-width: 600px) {
+    header img {
         width: 7.782vw;
         height: 4.58vw;
     }
@@ -909,156 +922,168 @@ footer {
     .text-group {
         margin-top: 10.91vw;
     }
-  
-  
-    html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  .kurs,
-  .format {
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
 
 
-  .kurs-title {
-    font-size: 26px;
-    margin: 40px 0 20px 0;
-  }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
-  .kurs-part1 {
-    flex-direction: column;
-    align-items: center;
-  }
+    .kurs,
+    .format {
+        margin: auto;
+        width: 90vw;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 
-  .kurs-paragraph {
-    width: 100%;
-    margin: 0;
-  }
 
-  .kurs-paragraph p {
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 16px;
-  }
+    .kurs-title {
+        font-size: 26px;
+        margin: 40px 0 20px 0;
+    }
 
-  .kurs-foto1 {
-    width: 220px;
-    margin: 25px 0;
-  }
+    .kurs-part1 {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .kurs-foto {
-    display: none;
-  }
+    .kurs-paragraph {
+        width: 100%;
+        margin: 0;
+    }
 
-  .kurs-part2 {
-    flex-direction: column;
-    margin-top: 30px;
-  }
+    .kurs-paragraph p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 16px;
+    }
 
-  .kurs-table {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 100%;
-  }
+    .kurs-foto1 {
+        width: 220px;
+        margin: 25px 0;
+    }
 
-  .kurs-info {
-    margin: 0;
-  }
+    .kurs-foto {
+        display: none;
+    }
 
-  .kurs-info:nth-child(3) {
-    grid-column: span 2;
-  }
+    .kurs-part2 {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
 
-  .kurs-info h2 {
-    font-size: 20px;
-    margin-bottom: 6px;
-  }
+    .kurs-table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
 
-  .kurs-info p {
-    font-size: 14px;
-    line-height: 1.5;
-    width: 100%;
-  }
+    .kurs-info {
+        margin: 0;
+    }
 
-  .format-title {
-    font-size: 26px;
-    margin: 40px 0 25px 0;
-  }
+    .kurs-info:nth-child(3) {
+        grid-column: span 2;
+    }
 
-  .format-info {
-    display: block;
-  }
+    .kurs-info h2 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
 
-  .format-li {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    .kurs-info p {
+        font-size: 14px;
+        line-height: 1.5;
+        width: 100%;
+    }
 
-  .format-li h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
+    .format-title {
+        font-size: 26px;
+        margin: 40px 0 25px 0;
+    }
 
-  .format-li p {
-    font-size: 15px;
-    line-height: 1.6;
-  }
-    
-  
-  .programming-course-divs {
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin:0;
-            padding:0;
+    .format-info {
+        display: block;
+    }
 
-        }
-        .programming-course-block {
-            width: 50%;
-        }
-        .welearn {
-            width:100%;
-        }
-        .welearn h2 {
-            font-size:7.6vw;
-            margin-left:8%;
-            margin-bottom:0.8em;
-        }
-        .welearn ul {
-            margin-left:8%;
-            padding-right:15%;
-        }
-        .programming-course-block p {
-            font-size:4.1vw;
-            width: 100%;
-            font-weight: 700;
-        }
-        .programming-course-divs li {
-            font-weight: 400;
-            font-size:3vw;
-        }
-        .block8 p{
-            margin-bottom: 3%;
-        }
-        .welearn li {
-            font-size: 3vw;
-            margin-bottom:1.5%;
-        }
-        
-        .programming_course h2 {
-            width: 100%;
-            font-size:7.6vw;
-            font-weight: bold;
-        }
+    .format-li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
-  
-  .top {
+    .format-li h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .format-li p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    .programming-course-divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .programming-course-block {
+        width: 50%;
+    }
+
+    .welearn {
+        width: 100%;
+    }
+
+    .welearn h2 {
+        font-size: 7.6vw;
+        margin-left: 8%;
+        margin-bottom: 0.8em;
+    }
+
+    .welearn ul {
+        margin-left: 8%;
+        padding-right: 15%;
+    }
+
+    .programming-course-block p {
+        font-size: 4.1vw;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .programming-course-divs li {
+        font-weight: 400;
+        font-size: 3vw;
+    }
+
+    .block8 p {
+        margin-bottom: 3%;
+    }
+
+    .welearn li {
+        font-size: 3vw;
+        margin-bottom: 1.5%;
+    }
+
+    .programming_course h2 {
+        width: 100%;
+        font-size: 7.6vw;
+        font-weight: bold;
+    }
+
+
+    .top {
         padding: 4vw;
     }
 
@@ -1084,6 +1109,7 @@ footer {
         margin-top: 5.33vw;
         margin-bottom: 5.33vw;
         padding: 0 5.33vw;
+        width: 75%;
     }
 
     .top-block-bottom-container {
@@ -1106,7 +1132,7 @@ footer {
     .top-block-fb {
         width: 5.33vw;
     }
-  
+
     .course-start-section {
         width: 100%;
         padding: 62px 57px;
@@ -1147,7 +1173,7 @@ footer {
 
     .social {
         width: 15px;
-        height: 15px;    
+        height: 15px;
     }
 
     .phone-img {
@@ -1178,11 +1204,13 @@ footer {
         justify-content: start;
     }
 
-    .footer-div-left,.footer-div-right {
+    .footer-div-left,
+    .footer-div-right {
         margin: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: start;;
+        justify-content: start;
+        ;
     }
 
     .mail-img {
@@ -1193,7 +1221,7 @@ footer {
         margin-bottom: 5px;
     }
 
-    .foot-phone-div{
+    .foot-phone-div {
         margin-bottom: 5px;
         width: 100%;
     }
@@ -1203,10 +1231,11 @@ footer {
         margin-top: 13px;
         display: flex;
     }
-    
+
     footer {
         padding-left: 57px;
-    };
+    }
 
-  }
+    ;
 
+}
