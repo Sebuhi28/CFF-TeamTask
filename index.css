@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #EFEFEF;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 1.39vw;
+}
+
+.top-wrapper {
+    max-width: 97.22vw;
+    margin-left: 4.86vw;
+}
+
+.top-h {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 3.82vw;
+    font-weight: bold;
+    line-height: 101%;
+    margin-top: 3.61vw;
+    margin-bottom: 2.36vw;
+    text-align: left;
+}
+
+.top-block {
+    width: 54.93vw;
+    height: auto;
+    padding-bottom: 2.08vw;
+    box-shadow: 0vw 0.28vw 0.28vw rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 1.21vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.72vw;
+}
+
+.top-block-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.39vw;
+    line-height: 150%;
+    margin: 2.78vw 0 2.08vw 0;
+    padding: 0 2.08vw;
+    text-align: left;
+}
+
+.top-block-bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2.08vw;
+}
+
+.top-block-pfp {
+    width: 13.19vw;
+    height: auto;
+}
+
+.top-block-bottom-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.08vw;
+}
+
+.top-block-name {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    font-size: 2.08vw;
+    margin: 0 0 0.69vw 0;
+}
+
+.top-block-fb {
+    width: 2.22vw;
+}
+
+@media (max-width: 991px) {
+    .top-wrapper {
+        margin-left: 5.21vw;
+    }
+
+    .top-h {
+        font-size: 4.17vw;
+        margin-top: 5.21vw;
+        margin-bottom: 3.91vw;
+    }
+
+    .top-block {
+        width: 60vw;
+        border-radius: 2.27vw;
+    }
+
+    .top-block-p {
+        font-size: 1.56vw;
+        padding: 0 3.26vw;
+    }
+
+    .top-block-pfp {
+        width: 14.32vw;
+    }
+
+    .top-block-name {
+        font-size: 2.21vw;
+    }
+
+    .top-block-fb {
+        width: 3.13vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .top {
+        padding: 4vw;
+    }
+
+    .top-wrapper {
+        margin-left: 0;
+    }
+
+    .top-h {
+        font-size: 6.93vw;
+        margin-top: 5.33vw;
+        margin-bottom: 5.33vw;
+    }
+
+    .top-block {
+        width: 100%;
+        border-radius: 4.63vw;
+        padding-top: 2.67vw;
+        padding-bottom: 6.67vw;
+    }
+
+    .top-block-p {
+        font-size: 2.67vw;
+        margin-top: 5.33vw;
+        margin-bottom: 5.33vw;
+        padding: 0 5.33vw;
+    }
+
+    .top-block-bottom-container {
+        padding-left: 5.33vw;
+    }
+
+    .top-block-pfp {
+        width: 21.33vw;
+    }
+
+    .top-block-bottom-container2 {
+        margin-left: 4vw;
+    }
+
+    .top-block-name {
+        font-size: 3.73vw;
+        margin-bottom: 1.33vw;
+    }
+
+    .top-block-fb {
+        width: 5.33vw;
+    }
+}
