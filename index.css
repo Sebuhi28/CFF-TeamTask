@@ -1,3 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.kurs,.format {
+  font-family: "Roboto", sans-serif;
+}
+
+.kurs-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  margin-left: 8.9vw;
+  margin-top: 5.8vw;
+  font-size: 3.9vw;
+}
+
+.kurs-paragraph {
+  width: 47vw;
+  margin-left: 8.9vw;
+}
+
+.kurs-paragraph p {
+  font-size: 1.7vw;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.kurs-part1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.kurs-foto1 {
+  width: 25vw;
+  height: auto;
+  margin-left: 5vw;
+  margin-right: 8.9vw;
+}
+
+.kurs-part2 {
+  display: flex;
+  margin-left: 8.9vw;
+  margin-top: 5vw;
+  width: 90%;
+}
+
+.kurs-table {
+  width: 60%;
+  margin-left: 4.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.kurs-info {
+  margin-left: 7.8vw;
+}
+
+.kurs-info h2 {
+  font-size: 1.8vw;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.kurs-info p {
+  width: 11vw;
+  font-size: 1.3vw;
+}
+
+.kurs-foto2 {
+  width: 24.5vw;
+  height: auto;
+}
+.format {
+    margin-left: 8.9vw;
+    margin-top: 6vw;
+}
+
+.format-title {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 3.9vw;
+    margin-bottom: 2.5vw;
+}
+
+.format-info {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12vw;
+    width: 85%;
+}
+
+.format-li {
+    width: 18vw; 
+}
+
+.format-li h3 {
+    color: #4A6E91;
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.format-item p {
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: #000;
+    margin: 0;
+}
+
+.programming_course h2 {        
+     font-family: "Roboto Slab", serif;
+     font-weight: 700;
+     font-size:4vw;
+     letter-spacing: 0%;
+     margin-bottom:4rem;
+     margin-left:7%;
+}
+.programming-course-block {
+    width: 29%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom:20px;
+}
+.programming-course-block img {
+    width: 100%;
+    height: 50%;
+}
+.programming-course-block p {
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    margin:5% 10% 6% 5%;
+    
+}
+.programming-course-divs {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 41px;
+    column-gap: 37px;
+    margin-left:5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.programming-course-divs ul {
+    list-style-type: none;
+}
+.programming-course-divs li {
+    font-weight: 400;
+    font-size:1.5vw;
+    font-family: "Roboto", sans-serif;
+    padding-left:5%;
+}
+
+.welearn {
+    list-style-type: none;
+    width: 65vw;
+     font-family: "Roboto", sans-serif;
+     margin-bottom:18%;
+    margin-top: 10%;
+}
+.welearn h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 4.5vw;
+    margin-left:12%;
+    margin-bottom:3.6vw;
+}
+.welearn ul {
+    margin-left:10%;
+    
+}
+
+.block8 p{
+    margin-bottom: 3%;
+}
+p {
+    width: 100%;
+}
+.textofblock {
+    width: 100%;
+    height: 50%;
+}
+
+.welearn li {
+    margin-left: 5%;
+    font-size: 2vw;
+} 
+
 * {
     box-sizing: border-box;
 }
@@ -80,8 +275,144 @@ body {
     width: 2.22vw;
 }
 
-@media (max-width: 991px) {
-    .top-wrapper {
+.course-start-section {
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #9DC9C8;
+    padding-top: 179px;
+    padding-left: 122px;
+    padding-bottom: 185px;
+}
+
+.start-h1 {
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.price-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-top: 54px;
+    margin-bottom: 0px;
+}
+
+.course-price {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+.p-for-level {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.p-level-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.div-course {
+    display: flex;
+}
+
+.div-course1 {
+    margin-right: 70px;
+    width: 25%;
+}
+
+.p-join-course {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.p-join-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    padding: 50px 122px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 146px;
+}
+
+.social {
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.synch {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.footer-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-phone-div,
+.foot-mail-div {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.phone-img {
+    width: 27px;
+    height: 27px;
+    margin-right: 18px;
+}
+
+.mail-img {
+    width: 27px;
+    height: 18px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+.phone-num {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.mail {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+   .welearn{
+        margin-top:5%;
+        margin-bottom:15%;
+    }
+    .welearn h2 {
+        margin-bottom:2vw;
+    }
+    .programming-course-divs {
+        width: 100vw;
+    }
+  
+  .top-wrapper {
         margin-left: 5.21vw;
     }
 
@@ -112,10 +443,347 @@ body {
     .top-block-fb {
         width: 3.13vw;
     }
+  
+  .course-start-section {
+        width: 100%;
+        padding: 103px 70px;
+    }
+
+    .start-h1 {
+        font-size: 32px;
+    }
+
+    .price-text {
+        font-size: 14px;
+    }
+
+    .course-price {
+        font-size: 46px;
+    }
+
+    .p-for-level {
+        font-size: 14px;
+    }
+
+    .p-level-info {
+        font-size: 10px;
+    }
+
+    .p-join-course {
+        font-size: 14px;
+    }
+
+    .p-join-info {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 66px;
+        height: 39px;
+    }
+
+    .social {
+        width: 19px;
+        height: 19px;    
+    }
+
+    .phone-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .mail-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .phone-num {
+        font-size: 14px;
+    }
+
+    .mail {
+        font-size: 14px;
+    }
+
+    .synch {
+        font-size: 10px;
+    }
+
+    .mail-img {
+        margin-top: 2px;
+    }
+
+    .phone-img {
+        margin-bottom: 5px;
+    }
+
+    .foot-phone-div{
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+        margin-top: 13px;
+        display: flex;
+    }
+  
+    html, body {
+    overflow-x: hidden;
+  }
+
+
+  .kurs,
+  .format {
+    margin-left: 0;          
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .kurs-title,
+  .format-title {
+    margin-left: 0;
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+
+  .kurs-part1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .kurs-paragraph {
+    flex: 1;
+    margin: 0;
+  }
+
+  .kurs-paragraph p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .kurs-foto1 {
+    width: 260px;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+
+
+  .kurs-part2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .kurs-foto {
+    flex: 0 0 130px;
+  }
+
+  .kurs-foto2 {
+    width: 100%;
+    height: auto;
+    margin-left: -30px;
+  }
+
+  .kurs-table {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+    margin-left: -100px;
+  }
+
+
+  .kurs-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .kurs-info h2 {
+    font-size: 20px;
+  }
+
+  .kurs-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+
+  .format-info {
+    display: flex;
+    gap: 40px;
+  }
+
+  .format-li {
+    flex: 1;
+  }
+
+  .format-li h3 {
+    font-size: 20px;   
+  }
+
+  .format-li p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
 }
 
-@media (max-width: 600px) {
-    .top {
+
+
+@media screen and (min-width:375px) and (max-width: 600px){
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .kurs,
+  .format {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+
+  .kurs-title {
+    font-size: 26px;
+    margin: 40px 0 20px 0;
+  }
+
+  .kurs-part1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kurs-paragraph {
+    width: 100%;
+    margin: 0;
+  }
+
+  .kurs-paragraph p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .kurs-foto1 {
+    width: 220px;
+    margin: 25px 0;
+  }
+
+  .kurs-foto {
+    display: none;
+  }
+
+  .kurs-part2 {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .kurs-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+
+  .kurs-info {
+    margin: 0;
+  }
+
+  .kurs-info:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .kurs-info h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .kurs-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .format-title {
+    font-size: 26px;
+    margin: 40px 0 25px 0;
+  }
+
+  .format-info {
+    display: block;
+  }
+
+  .format-li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .format-li h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .format-li p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+    
+  
+  .programming-course-divs {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            padding:0;
+
+        }
+        .programming-course-block {
+            width: 50%;
+        }
+        .welearn {
+            width:100%;
+        }
+        .welearn h2 {
+            font-size:7.6vw;
+            margin-left:8%;
+            margin-bottom:0.8em;
+        }
+        .welearn ul {
+            margin-left:8%;
+            padding-right:15%;
+        }
+        .programming-course-block p {
+            font-size:4.1vw;
+            width: 100%;
+            font-weight: 700;
+        }
+        .programming-course-divs li {
+            font-weight: 400;
+            font-size:3vw;
+        }
+        .block8 p{
+            margin-bottom: 3%;
+        }
+        .welearn li {
+            font-size: 3vw;
+            margin-bottom:1.5%;
+        }
+        
+        .programming_course h2 {
+            width: 100%;
+            font-size:7.6vw;
+            font-weight: bold;
+        }
+
+  
+  .top {
         padding: 4vw;
     }
 
@@ -163,4 +831,107 @@ body {
     .top-block-fb {
         width: 5.33vw;
     }
-}
+  
+    .course-start-section {
+        width: 100%;
+        padding: 62px 57px;
+    }
+
+    .start-h1 {
+        font-size: 26px;
+    }
+
+    .price-text {
+        font-size: 12px;
+    }
+
+    .course-price {
+        font-size: 37px;
+    }
+
+    .p-for-level {
+        font-size: 12px;
+    }
+
+    .p-level-info {
+        font-size: 10px;
+    }
+
+    .p-join-course {
+        font-size: 12px;
+    }
+
+    .p-join-info {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 54px;
+        height: 32px;
+    }
+
+    .social {
+        width: 15px;
+        height: 15px;    
+    }
+
+    .phone-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .mail-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .phone-num {
+        font-size: 12px;
+    }
+
+    .mail {
+        font-size: 12px;
+    }
+
+    .synch {
+        font-size: 10px;
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .footer-div-left,.footer-div-right {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;;
+    }
+
+    .mail-img {
+        margin-top: 2px;
+    }
+
+    .phone-img {
+        margin-bottom: 5px;
+    }
+
+    .foot-phone-div{
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+        margin-top: 13px;
+        display: flex;
+    }
+    
+    footer {
+        padding-left: 57px;
+    };
+
+  }
+
