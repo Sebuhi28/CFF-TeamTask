@@ -1,0 +1,143 @@
+.programming_course h2 {        
+     font-family: "Roboto Slab", serif;
+     font-weight: 700;
+     font-size:4vw;
+     letter-spacing: 0%;
+     margin-bottom:4rem;
+     margin-left:7%;
+}
+.programming-course-block {
+    width: 29%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom:20px;
+}
+.programming-course-block img {
+    width: 100%;
+    height: 50%;
+}
+.programming-course-block p {
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    margin:5% 10% 6% 5%;
+    
+}
+.programming-course-divs {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 41px;
+    column-gap: 37px;
+    margin-left:5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.programming-course-divs ul {
+    list-style-type: none;
+}
+.programming-course-divs li {
+    font-weight: 400;
+    font-size:1.5vw;
+    font-family: "Roboto", sans-serif;
+    padding-left:5%;
+}
+
+.welearn {
+    list-style-type: none;
+    width: 65vw;
+     font-family: "Roboto", sans-serif;
+     margin-bottom:18%;
+}
+.welearn h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 4.5vw;
+    margin-left:12%;
+    margin-bottom:3.6vw;
+}
+.welearn ul {
+    margin-left:10%;
+    
+}
+
+.block8 p{
+    margin-bottom: 3%;
+}
+p {
+    width: 100%;
+}
+.textofblock {
+    width: 100%;
+    height: 50%;
+}
+
+.welearn li {
+    margin-left: 5%;
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    .welearn{
+        margin-top:5%;
+        margin-bottom:15%;
+    }
+    .welearn h2 {
+        margin-bottom:2vw;
+    }
+    .programming-course-divs {
+        width: 100vw;
+    }
+}
+@media screen and (max-width:600px) {
+        .programming-course-divs {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+            padding:0;
+
+        }
+        .programming-course-block {
+            width: 50%;
+        }
+        .welearn {
+            width:100%;
+        }
+        .welearn h2 {
+            font-size:7.6vw;
+            margin-left:8%;
+            margin-bottom:0.8em;
+        }
+        .welearn ul {
+            margin-left:8%;
+            padding-right:15%;
+        }
+        .programming-course-block p {
+            font-size:4.1vw;
+            width: 100%;
+            font-weight: 700;
+        }
+        .programming-course-divs li {
+            font-weight: 400;
+            font-size:3vw;
+        }
+        .block8 p{
+            margin-bottom: 3%;
+        }
+        .welearn li {
+            font-size: 3vw;
+            margin-bottom:1.5%;
+        }
+        
+        .programming_course h2 {
+            width: 100%;
+            font-size:7.6vw;
+            font-weight: bold;
+        }
+    }
